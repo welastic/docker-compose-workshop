@@ -29,7 +29,7 @@
     <div id="items"></div>
 
     <script>
-      const API_BASE = 'http://localhost:5000';
+      const API_BASE = `http://${window.location.hostname}:5000`;
 
       function showStatus(message, isError = false) {
         const status = document.getElementById('status');
